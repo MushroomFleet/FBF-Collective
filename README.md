@@ -7,13 +7,18 @@ A collection of custom nodes for ComfyUI focusing on audio-visual manipulation, 
 1. Clone this repository into your ComfyUI custom_nodes directory:
 ```bash
 cd ComfyUI/custom_nodes
-git clone [repository-url] communityNodes
+git clone https://github.com/MushroomFleet/FBF-Collective
 ```
 
 2. Install the required dependencies:
 ```bash
 cd communityNodes
 pip install -r requirements.txt
+```
+(portable:)
+```bash
+cd communityNodes
+install-requirements.bat
 ```
 
 3. Restart ComfyUI to load the new nodes.
