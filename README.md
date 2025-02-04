@@ -21,16 +21,16 @@ pip install -r requirements.txt
 ## Available Nodes
 
 ### Audio Processing
-- [AudioScratchV2](AudioScratchV2.md) - Advanced audio manipulation with various envelope types and stretching modes
-- [AudioToFrames](AudioToFrames.md) - Convert audio signals into visual frames and spectrograms
+- [AudioScratchV2](AudioScratchV2.md) - Advanced audio manipulation with various envelope types and stretching modes, by Sonification
+- [AudioToFrames](AudioToFrames.md) - Convert audio signals into visual frames and spectrograms, by Sonification
 
 ### Visual Effects
-- [DjzDatamoshV8Enhanced](DjzDatamoshV8Enhanced.md) - Advanced pixel sorting and datamoshing effects
-- [Dynamic_Spectrogram](Dynamic_Spectrogram.md) - Create dynamic spectrogram visualizations with extensive customization
-- [FrameBufferGlitch](FrameBufferGlitch.md) - Frame freezing and audio glitch effects
-- [FrameShuffle](FrameShuffle.md) - Frame and audio shuffling with various modes
-- [Signal2Frames](Signal2Frames.md) - Convert audio signals into microscope-like surface visualizations
-- [ToadVideoFrameManipulator](ToadVideoFrameManipulator.md) - Multiple video frame manipulation effects
+- [DjzDatamoshV8Enhanced](DjzDatamoshV8Enhanced.md) - Advanced pixel sorting and datamoshing effects, by Enjoykaos
+- [Dynamic_Spectrogram](Dynamic_Spectrogram.md) - Create dynamic spectrogram visualizations with extensive customization, by Sonification
+- [FrameBufferGlitch](FrameBufferGlitch.md) - Frame freezing and audio glitch effects, by Sonification
+- [FrameShuffle](FrameShuffle.md) - Frame and audio shuffling with various modes, by Sonification
+- [Signal2Frames](Signal2Frames.md) - Convert audio signals into microscope-like surface visualizations, by Sonification
+- [ToadVideoFrameManipulator](ToadVideoFrameManipulator.md) - Multiple video frame manipulation effects, from Toad
 
 ## Features
 
