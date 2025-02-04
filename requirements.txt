@@ -1,0 +1,8 @@
+numpy
+torch
+librosa
+matplotlib
+scipy
+opencv-python
+tqdm
+Pillow

@@ -1,0 +1,1471 @@
+{
+  "last_node_id": 19,
+  "last_link_id": 30,
+  "nodes": [
+    {
+      "id": 16,
+      "type": "VHS_VideoCombine",
+      "pos": [
+        1526.6884765625,
+        -772.416748046875
+      ],
+      "size": [
+        214.7587890625,
+        477.8392028808594
+      ],
+      "flags": {},
+      "order": 16,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 17
+        },
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 21,
+          "shape": 7
+        },
+        {
+          "name": "meta_batch",
+          "type": "VHS_BatchManager",
+          "link": null,
+          "shape": 7
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": null,
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Filenames",
+          "type": "VHS_FILENAMES",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VHS_VideoCombine"
+      },
+      "widgets_values": {
+        "frame_rate": 25,
+        "loop_count": 0,
+        "filename_prefix": "AnimateDiff",
+        "format": "video/h264-mp4",
+        "pix_fmt": "yuv420p",
+        "crf": 19,
+        "save_metadata": false,
+        "trim_to_audio": false,
+        "pingpong": false,
+        "save_output": false,
+        "videopreview": {
+          "hidden": false,
+          "paused": false,
+          "params": {
+            "filename": "AnimateDiff_00024-audio.mp4",
+            "subfolder": "",
+            "type": "temp",
+            "format": "video/h264-mp4",
+            "frame_rate": 25,
+            "workflow": "AnimateDiff_00024.png",
+            "fullpath": "K:\\MACHINES10\\ComfyUI_windows_portable_nvidia\\ComfyUI_windows_portable\\ComfyUI\\temp\\AnimateDiff_00024-audio.mp4"
+          },
+          "muted": false
+        }
+      }
+    },
+    {
+      "id": 10,
+      "type": "VHS_VideoCombine",
+      "pos": [
+        1535.259765625,
+        1360.447509765625
+      ],
+      "size": [
+        214.7587890625,
+        459.58056640625
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 9
+        },
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 22,
+          "shape": 7
+        },
+        {
+          "name": "meta_batch",
+          "type": "VHS_BatchManager",
+          "link": null,
+          "shape": 7
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": null,
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Filenames",
+          "type": "VHS_FILENAMES",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VHS_VideoCombine"
+      },
+      "widgets_values": {
+        "frame_rate": 25,
+        "loop_count": 0,
+        "filename_prefix": "AnimateDiff",
+        "format": "video/h264-mp4",
+        "pix_fmt": "yuv420p",
+        "crf": 19,
+        "save_metadata": false,
+        "trim_to_audio": false,
+        "pingpong": false,
+        "save_output": false,
+        "videopreview": {
+          "hidden": false,
+          "paused": false,
+          "params": {
+            "filename": "AnimateDiff_00023-audio.mp4",
+            "subfolder": "",
+            "type": "temp",
+            "format": "video/h264-mp4",
+            "frame_rate": 25,
+            "workflow": "AnimateDiff_00023.png",
+            "fullpath": "K:\\MACHINES10\\ComfyUI_windows_portable_nvidia\\ComfyUI_windows_portable\\ComfyUI\\temp\\AnimateDiff_00023-audio.mp4"
+          },
+          "muted": false
+        }
+      }
+    },
+    {
+      "id": 15,
+      "type": "VHS_VideoCombine",
+      "pos": [
+        1829.149658203125,
+        -143.86083984375
+      ],
+      "size": [
+        214.7587890625,
+        542.7587890625
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 11
+        },
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 20,
+          "shape": 7
+        },
+        {
+          "name": "meta_batch",
+          "type": "VHS_BatchManager",
+          "link": null,
+          "shape": 7
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": null,
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Filenames",
+          "type": "VHS_FILENAMES",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VHS_VideoCombine"
+      },
+      "widgets_values": {
+        "frame_rate": 25,
+        "loop_count": 0,
+        "filename_prefix": "AnimateDiff",
+        "format": "video/h264-mp4",
+        "pix_fmt": "yuv420p",
+        "crf": 19,
+        "save_metadata": false,
+        "trim_to_audio": false,
+        "pingpong": false,
+        "save_output": false,
+        "videopreview": {
+          "hidden": false,
+          "paused": false,
+          "params": {
+            "filename": "AnimateDiff_00022-audio.mp4",
+            "subfolder": "",
+            "type": "temp",
+            "format": "video/h264-mp4",
+            "frame_rate": 25,
+            "workflow": "AnimateDiff_00022.png",
+            "fullpath": "K:\\MACHINES10\\ComfyUI_windows_portable_nvidia\\ComfyUI_windows_portable\\ComfyUI\\temp\\AnimateDiff_00022-audio.mp4"
+          },
+          "muted": false
+        }
+      }
+    },
+    {
+      "id": 9,
+      "type": "VHS_LoadVideo",
+      "pos": [
+        -149.68350219726562,
+        1065.275146484375
+      ],
+      "size": [
+        247.455078125,
+        406.31280517578125
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "meta_batch",
+          "type": "VHS_BatchManager",
+          "link": null,
+          "shape": 7
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": null,
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            6,
+            7,
+            8
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "frame_count",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "links": null
+        },
+        {
+          "name": "video_info",
+          "type": "VHS_VIDEOINFO",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VHS_LoadVideo"
+      },
+      "widgets_values": {
+        "video": "CG_00003.mp4",
+        "force_rate": 0,
+        "force_size": "Disabled",
+        "custom_width": 512,
+        "custom_height": 512,
+        "frame_load_cap": 0,
+        "skip_first_frames": 0,
+        "select_every_nth": 1,
+        "choose video to upload": "image",
+        "videopreview": {
+          "hidden": false,
+          "paused": false,
+          "params": {
+            "force_rate": 0,
+            "frame_load_cap": 0,
+            "skip_first_frames": 0,
+            "select_every_nth": 1,
+            "filename": "CG_00003.mp4",
+            "type": "input",
+            "format": "video/mp4"
+          },
+          "muted": false
+        }
+      }
+    },
+    {
+      "id": 13,
+      "type": "VHS_VideoCombine",
+      "pos": [
+        2115.9228515625,
+        310.7380065917969
+      ],
+      "size": [
+        214.7587890625,
+        477.8392028808594
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 12
+        },
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 18,
+          "shape": 7
+        },
+        {
+          "name": "meta_batch",
+          "type": "VHS_BatchManager",
+          "link": null,
+          "shape": 7
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": null,
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Filenames",
+          "type": "VHS_FILENAMES",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VHS_VideoCombine"
+      },
+      "widgets_values": {
+        "frame_rate": 25,
+        "loop_count": 0,
+        "filename_prefix": "AnimateDiff",
+        "format": "video/h264-mp4",
+        "pix_fmt": "yuv420p",
+        "crf": 19,
+        "save_metadata": false,
+        "trim_to_audio": false,
+        "pingpong": false,
+        "save_output": false,
+        "videopreview": {
+          "hidden": false,
+          "paused": false,
+          "params": {
+            "filename": "AnimateDiff_00020-audio.mp4",
+            "subfolder": "",
+            "type": "temp",
+            "format": "video/h264-mp4",
+            "frame_rate": 25,
+            "workflow": "AnimateDiff_00020.png",
+            "fullpath": "K:\\MACHINES10\\ComfyUI_windows_portable_nvidia\\ComfyUI_windows_portable\\ComfyUI\\temp\\AnimateDiff_00020-audio.mp4"
+          },
+          "muted": false
+        }
+      }
+    },
+    {
+      "id": 8,
+      "type": "VHS_LoadAudioUpload",
+      "pos": [
+        -128.45236206054688,
+        -147.96868896484375
+      ],
+      "size": [
+        243.818359375,
+        130
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "links": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VHS_LoadAudioUpload"
+      },
+      "widgets_values": {
+        "audio": "2030-cars.wav",
+        "start_time": 0,
+        "duration": 0,
+        "choose audio to upload": "image"
+      }
+    },
+    {
+      "id": 7,
+      "type": "SignalToFrames",
+      "pos": [
+        1040.912841796875,
+        -774.9581909179688
+      ],
+      "size": [
+        315,
+        514
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 5
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            17
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SignalToFrames"
+      },
+      "widgets_values": [
+        768,
+        512,
+        25,
+        "hamming",
+        1,
+        1,
+        0.5,
+        255,
+        50,
+        50,
+        50,
+        255,
+        50,
+        50,
+        50,
+        255,
+        1.2,
+        45,
+        0.6,
+        0.4
+      ]
+    },
+    {
+      "id": 14,
+      "type": "VHS_VideoCombine",
+      "pos": [
+        1533.9266357421875,
+        -157.33399963378906
+      ],
+      "size": [
+        214.7587890625,
+        542.7587890625
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 10
+        },
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 19,
+          "shape": 7
+        },
+        {
+          "name": "meta_batch",
+          "type": "VHS_BatchManager",
+          "link": null,
+          "shape": 7
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": null,
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Filenames",
+          "type": "VHS_FILENAMES",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VHS_VideoCombine"
+      },
+      "widgets_values": {
+        "frame_rate": 25,
+        "loop_count": 0,
+        "filename_prefix": "AnimateDiff",
+        "format": "video/h264-mp4",
+        "pix_fmt": "yuv420p",
+        "crf": 19,
+        "save_metadata": false,
+        "trim_to_audio": false,
+        "pingpong": false,
+        "save_output": false,
+        "videopreview": {
+          "hidden": false,
+          "paused": false,
+          "params": {
+            "filename": "AnimateDiff_00021-audio.mp4",
+            "subfolder": "",
+            "type": "temp",
+            "format": "video/h264-mp4",
+            "frame_rate": 25,
+            "workflow": "AnimateDiff_00021.png",
+            "fullpath": "K:\\MACHINES10\\ComfyUI_windows_portable_nvidia\\ComfyUI_windows_portable\\ComfyUI\\temp\\AnimateDiff_00021-audio.mp4"
+          },
+          "muted": false
+        }
+      }
+    },
+    {
+      "id": 2,
+      "type": "AudioToFrames",
+      "pos": [
+        1023.4901733398438,
+        -158.32144165039062
+      ],
+      "size": [
+        315,
+        342
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Images",
+          "type": "IMAGE",
+          "links": [
+            10
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "Spectrograms",
+          "type": "IMAGE",
+          "links": [
+            11
+          ],
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "AudioToFrames"
+      },
+      "widgets_values": [
+        256,
+        256,
+        100,
+        "viridis",
+        512,
+        64,
+        32,
+        80,
+        127,
+        121,
+        95,
+        0.3
+      ]
+    },
+    {
+      "id": 4,
+      "type": "DynamicSpectrogram",
+      "pos": [
+        1026,
+        309
+      ],
+      "size": [
+        315,
+        394
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "audio_input",
+          "type": "AUDIO",
+          "link": 2
+        }
+      ],
+      "outputs": [
+        {
+          "name": "spectrograms",
+          "type": "IMAGE",
+          "links": [
+            12
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "DynamicSpectrogram"
+      },
+      "widgets_values": [
+        768,
+        512,
+        25,
+        "Rainbow Spectrum",
+        "hann",
+        "mel",
+        1,
+        2048,
+        8,
+        256,
+        1,
+        true,
+        0,
+        20000,
+        1
+      ]
+    },
+    {
+      "id": 6,
+      "type": "FrameShuffle",
+      "pos": [
+        1032.1920166015625,
+        1070.572021484375
+      ],
+      "size": [
+        315,
+        198
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 7
+        },
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 4
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "links": [
+            14
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "links": [
+            16
+          ],
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "FrameShuffle"
+      },
+      "widgets_values": [
+        4,
+        "Random",
+        2,
+        0,
+        0,
+        "constant"
+      ]
+    },
+    {
+      "id": 5,
+      "type": "FrameBufferGlitch",
+      "pos": [
+        1037.366455078125,
+        810.34326171875
+      ],
+      "size": [
+        315,
+        174
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 6
+        },
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 3
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "links": [
+            13,
+            23
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "links": [
+            15,
+            27
+          ],
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "FrameBufferGlitch"
+      },
+      "widgets_values": [
+        4,
+        3,
+        0,
+        0,
+        "constant"
+      ]
+    },
+    {
+      "id": 17,
+      "type": "InspyrenetRembg",
+      "pos": [
+        2427.335205078125,
+        876.9598388671875
+      ],
+      "size": [
+        315,
+        78
+      ],
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 23
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [],
+          "slot_index": 0
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": [
+            25
+          ],
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "InspyrenetRembg"
+      },
+      "widgets_values": [
+        "default"
+      ]
+    },
+    {
+      "id": 11,
+      "type": "VHS_VideoCombine",
+      "pos": [
+        2088.91357421875,
+        1070.43017578125
+      ],
+      "size": [
+        214.7587890625,
+        459.58056640625
+      ],
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 14
+        },
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 16,
+          "shape": 7
+        },
+        {
+          "name": "meta_batch",
+          "type": "VHS_BatchManager",
+          "link": null,
+          "shape": 7
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": null,
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Filenames",
+          "type": "VHS_FILENAMES",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VHS_VideoCombine"
+      },
+      "widgets_values": {
+        "frame_rate": 25,
+        "loop_count": 0,
+        "filename_prefix": "AnimateDiff",
+        "format": "video/h264-mp4",
+        "pix_fmt": "yuv420p",
+        "crf": 19,
+        "save_metadata": false,
+        "trim_to_audio": false,
+        "pingpong": false,
+        "save_output": false,
+        "videopreview": {
+          "hidden": false,
+          "paused": false,
+          "params": {
+            "filename": "AnimateDiff_00026-audio.mp4",
+            "subfolder": "",
+            "type": "temp",
+            "format": "video/h264-mp4",
+            "frame_rate": 25,
+            "workflow": "AnimateDiff_00026.png",
+            "fullpath": "K:\\MACHINES10\\ComfyUI_windows_portable_nvidia\\ComfyUI_windows_portable\\ComfyUI\\temp\\AnimateDiff_00026-audio.mp4"
+          },
+          "muted": false
+        }
+      }
+    },
+    {
+      "id": 12,
+      "type": "VHS_VideoCombine",
+      "pos": [
+        1532.4281005859375,
+        810.1644897460938
+      ],
+      "size": [
+        214.7587890625,
+        459.58056640625
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 13
+        },
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 15,
+          "shape": 7
+        },
+        {
+          "name": "meta_batch",
+          "type": "VHS_BatchManager",
+          "link": null,
+          "shape": 7
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": null,
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Filenames",
+          "type": "VHS_FILENAMES",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VHS_VideoCombine"
+      },
+      "widgets_values": {
+        "frame_rate": 25,
+        "loop_count": 0,
+        "filename_prefix": "AnimateDiff",
+        "format": "video/h264-mp4",
+        "pix_fmt": "yuv420p",
+        "crf": 19,
+        "save_metadata": false,
+        "trim_to_audio": false,
+        "pingpong": false,
+        "save_output": false,
+        "videopreview": {
+          "hidden": false,
+          "paused": false,
+          "params": {
+            "filename": "AnimateDiff_00019-audio.mp4",
+            "subfolder": "",
+            "type": "temp",
+            "format": "video/h264-mp4",
+            "frame_rate": 25,
+            "workflow": "AnimateDiff_00019.png",
+            "fullpath": "K:\\MACHINES10\\ComfyUI_windows_portable_nvidia\\ComfyUI_windows_portable\\ComfyUI\\temp\\AnimateDiff_00019-audio.mp4"
+          },
+          "muted": false
+        }
+      }
+    },
+    {
+      "id": 18,
+      "type": "VHS_VideoCombine",
+      "pos": [
+        3311.151123046875,
+        813.6995849609375
+      ],
+      "size": [
+        214.7587890625,
+        459.58056640625
+      ],
+      "flags": {},
+      "order": 18,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 28
+        },
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 27,
+          "shape": 7
+        },
+        {
+          "name": "meta_batch",
+          "type": "VHS_BatchManager",
+          "link": null,
+          "shape": 7
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": null,
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Filenames",
+          "type": "VHS_FILENAMES",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VHS_VideoCombine"
+      },
+      "widgets_values": {
+        "frame_rate": 25,
+        "loop_count": 0,
+        "filename_prefix": "AnimateDiff",
+        "format": "video/h264-mp4",
+        "pix_fmt": "yuv420p",
+        "crf": 19,
+        "save_metadata": false,
+        "trim_to_audio": false,
+        "pingpong": false,
+        "save_output": false,
+        "videopreview": {
+          "hidden": false,
+          "paused": false,
+          "params": {
+            "filename": "AnimateDiff_00025-audio.mp4",
+            "subfolder": "",
+            "type": "temp",
+            "format": "video/h264-mp4",
+            "frame_rate": 25,
+            "workflow": "AnimateDiff_00025.png",
+            "fullpath": "K:\\MACHINES10\\ComfyUI_windows_portable_nvidia\\ComfyUI_windows_portable\\ComfyUI\\temp\\AnimateDiff_00025-audio.mp4"
+          },
+          "muted": false
+        }
+      }
+    },
+    {
+      "id": 3,
+      "type": "DjzDatamoshV8Enhanced",
+      "pos": [
+        2838.73095703125,
+        878.4706420898438
+      ],
+      "size": [
+        327.5999755859375,
+        314
+      ],
+      "flags": {},
+      "order": 17,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 30
+        },
+        {
+          "name": "mask",
+          "type": "MASK",
+          "link": 25,
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            28
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "mask_out",
+          "type": "MASK",
+          "links": null
+        },
+        {
+          "name": "inverted_mask_out",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "DjzDatamoshV8Enhanced"
+      },
+      "widgets_values": [
+        "luminance",
+        0.5,
+        90,
+        false,
+        false,
+        4,
+        4,
+        3370873343,
+        "randomize",
+        true
+      ]
+    },
+    {
+      "id": 1,
+      "type": "ToadVideoFrameManipulator",
+      "pos": [
+        1016.2222900390625,
+        1366.1978759765625
+      ],
+      "size": [
+        352.79998779296875,
+        730
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 8
+        }
+      ],
+      "outputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "links": [
+            9,
+            29
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ToadVideoFrameManipulator"
+      },
+      "widgets_values": [
+        true,
+        0.1,
+        5,
+        true,
+        0.1,
+        3,
+        true,
+        0.1,
+        4,
+        true,
+        0.1,
+        0.5,
+        5,
+        5,
+        true,
+        0.1,
+        5,
+        true,
+        0.1,
+        5,
+        true,
+        0.1,
+        4,
+        true,
+        0.1,
+        50,
+        true,
+        0.1,
+        4
+      ]
+    },
+    {
+      "id": 19,
+      "type": "Reroute",
+      "pos": [
+        2653.16064453125,
+        990.5379028320312
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 29
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "IMAGE",
+          "links": [
+            30
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    }
+  ],
+  "links": [
+    [
+      1,
+      8,
+      0,
+      2,
+      0,
+      "AUDIO"
+    ],
+    [
+      2,
+      8,
+      0,
+      4,
+      0,
+      "AUDIO"
+    ],
+    [
+      3,
+      8,
+      0,
+      5,
+      1,
+      "AUDIO"
+    ],
+    [
+      4,
+      8,
+      0,
+      6,
+      1,
+      "AUDIO"
+    ],
+    [
+      5,
+      8,
+      0,
+      7,
+      0,
+      "AUDIO"
+    ],
+    [
+      6,
+      9,
+      0,
+      5,
+      0,
+      "IMAGE"
+    ],
+    [
+      7,
+      9,
+      0,
+      6,
+      0,
+      "IMAGE"
+    ],
+    [
+      8,
+      9,
+      0,
+      1,
+      0,
+      "IMAGE"
+    ],
+    [
+      9,
+      1,
+      0,
+      10,
+      0,
+      "IMAGE"
+    ],
+    [
+      10,
+      2,
+      0,
+      14,
+      0,
+      "IMAGE"
+    ],
+    [
+      11,
+      2,
+      1,
+      15,
+      0,
+      "IMAGE"
+    ],
+    [
+      12,
+      4,
+      0,
+      13,
+      0,
+      "IMAGE"
+    ],
+    [
+      13,
+      5,
+      0,
+      12,
+      0,
+      "IMAGE"
+    ],
+    [
+      14,
+      6,
+      0,
+      11,
+      0,
+      "IMAGE"
+    ],
+    [
+      15,
+      5,
+      1,
+      12,
+      1,
+      "AUDIO"
+    ],
+    [
+      16,
+      6,
+      1,
+      11,
+      1,
+      "AUDIO"
+    ],
+    [
+      17,
+      7,
+      0,
+      16,
+      0,
+      "IMAGE"
+    ],
+    [
+      18,
+      8,
+      0,
+      13,
+      1,
+      "AUDIO"
+    ],
+    [
+      19,
+      8,
+      0,
+      14,
+      1,
+      "AUDIO"
+    ],
+    [
+      20,
+      8,
+      0,
+      15,
+      1,
+      "AUDIO"
+    ],
+    [
+      21,
+      8,
+      0,
+      16,
+      1,
+      "AUDIO"
+    ],
+    [
+      22,
+      8,
+      0,
+      10,
+      1,
+      "AUDIO"
+    ],
+    [
+      23,
+      5,
+      0,
+      17,
+      0,
+      "IMAGE"
+    ],
+    [
+      25,
+      17,
+      1,
+      3,
+      1,
+      "MASK"
+    ],
+    [
+      27,
+      5,
+      1,
+      18,
+      1,
+      "AUDIO"
+    ],
+    [
+      28,
+      3,
+      0,
+      18,
+      0,
+      "IMAGE"
+    ],
+    [
+      29,
+      1,
+      0,
+      19,
+      0,
+      "*"
+    ],
+    [
+      30,
+      19,
+      0,
+      3,
+      0,
+      "IMAGE"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.23939204936916347,
+      "offset": [
+        1839.1642083095305,
+        957.3813337728662
+      ]
+    },
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0
+  },
+  "version": 0.4
+}
