@@ -1,0 +1,15 @@
+[project]
+name = "fbf-collective"
+description = ""
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["numpy", "torch", "librosa", "matplotlib", "scipy", "opencv-python", "tqdm", "Pillow"]
+
+[project.urls]
+Repository = "https://github.com/MushroomFleet/FBF-Collective"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "FBF-Collective"
+Icon = ""
