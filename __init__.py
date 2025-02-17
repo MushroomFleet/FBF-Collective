@@ -57,4 +57,77 @@ try:
 except ImportError:
     print("Unable to import ToadVideoFrameManipulator. This node will not be available.")
 
+
+try:
+    from .Frame_Duplicator import Frame_Duplicator
+    NODE_CLASS_MAPPINGS["Frame_Duplicator"] = Frame_Duplicator
+    NODE_DISPLAY_NAME_MAPPINGS["Frame_Duplicator"] = "Frame Duplicator"
+except ImportError:
+    print("Unable to import Frame_Duplicator. This node will not be available.")
+
+
+try:
+    from .LTX_ConDelta import LTX_ConDelta
+    NODE_CLASS_MAPPINGS["LTX_ConDelta"] = LTX_ConDelta
+    NODE_DISPLAY_NAME_MAPPINGS["LTX_ConDelta"] = "LTX ConDelta"
+except ImportError:
+    print("Unable to import LTX_ConDelta. This node will not be available.")
+
+
+try:
+    from .MixerSonif import MixerSonif
+    NODE_CLASS_MAPPINGS["MixerSonif"] = MixerSonif
+    NODE_DISPLAY_NAME_MAPPINGS["ToadVideoFMixerSoniframeManipulator"] = "Mixer Sonif"
+except ImportError:
+    print("Unable to import MixerSonif. This node will not be available.")
+
+
+try:
+    from .Psych import Psych
+    NODE_CLASS_MAPPINGS["Psych"] = Psych
+    NODE_DISPLAY_NAME_MAPPINGS["Psych"] = "Audio-Driven RGB Modifier"
+except ImportError:
+    print("Unable to import Psych. This node will not be available.")
+
+
+try:
+    from .RGB_zoom import RGB_zoom
+    NODE_CLASS_MAPPINGS["RGB_zoom"] = RGB_zoom
+    NODE_DISPLAY_NAME_MAPPINGS["RGB_zoom"] = "RGB zoom"
+except ImportError:
+    print("Unable to import RGB_zoom. This node will not be available.")
+
+
+try:
+    from .Video_Echo import Video_Echo
+    NODE_CLASS_MAPPINGS["Video_Echo"] = Video_Echo
+    NODE_DISPLAY_NAME_MAPPINGS["Video_Echo"] = "Video Echo"
+except ImportError:
+    print("Unable to import Video_Echo. This node will not be available.")
+
+
+try:
+    from .VideoRGBSplitter import VideoRGBSplitter
+    NODE_CLASS_MAPPINGS["VideoRGBSplitter"] = VideoRGBSplitter
+    NODE_DISPLAY_NAME_MAPPINGS["VideoRGBSplitter"] = "Video RGB Splitter"
+except ImportError:
+    print("Unable to import VideoRGBSplitter. This node will not be available.")
+
+
+try:
+    from .VoiceMod import VoiceMod
+    NODE_CLASS_MAPPINGS["VoiceMod"] = VoiceMod
+    NODE_DISPLAY_NAME_MAPPINGS["VoiceMod"] = "Voice Mod"
+except ImportError:
+    print("Unable to import VoiceMod. This node will not be available.")
+
+
+try:
+    from .RGBStream import RGBStream
+    NODE_CLASS_MAPPINGS["RGBStream"] = RGBStream
+    NODE_DISPLAY_NAME_MAPPINGS["RGBStream"] = "RGBStream"
+except ImportError:
+    print("Unable to import RGBStream. This node will not be available.")
+
+
 __all__ = ['NODE_CLASS_MAPPINGS', 'NODE_DISPLAY_NAME_MAPPINGS']
